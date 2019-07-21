@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign up</title>
+</head>
+<body>
+    <h1>Shaher's List 1.2 <img src="https://www.straighterline.com/wp/wp-content/uploads/image-archive/list.jpg" alt="Shaher's List" height="50" width="50"> </h1> <hr>    
+    <h2> Mail Subscription Sign up </h2>
+
+    <!--------  Form --------->
+    <form method="GET">
+        <div>
+            <label> First Name: </label> 
+            <input type="text" name="firstName" placeholder="Enter Firstname">
+        </div>
+
+
+        <br>
+         <div>
+            <label >last Name: <label>
+            <input type="text" name="lastName" placeholder="Enter Last Name"> <br>
+        </div>
+        <br>
+        <div>
+            <label> Email: </label>
+            <input type="email" name="email" required placeholder="Enter email"> 
+        </div>
+
+        <br>
+
+        <div>
+            <label>Password: </label>
+            <input type="password" name="password" required minlength="4" maxlength="12" placeholder="Type a password ">
+        </div>
+        <br>
+
+        <div>
+            Date Of Birth: <input type="date" name="DOB"> 
+        
+        </div>
+        <br>
+
+        <div>
+            <label>Age in Numbers:</label>
+            <input type="number" name="age" placeholder="Click to select" value="14">
+        </div>
+        <br>
+
+        <div>
+                <label> Gender: </label> <br>
+                <input type="radio" value="Male" name="Gender">Male<br>
+                <input type="radio" value="Female" name="Gender"> Female <br> <br> 
+
+        </div>
+
+        <div>
+            <label>Message us with Custom Requests</label>
+            <textarea name="meessage" placeholder="State your requests"></textarea>
+        </div>
+        <br>
+        <!------- Topic ------->
+         <div>
+            <label> <strong>Topics</strong> You wish to Receive Emails on: </label> <br>
+            <input type="checkbox" name="News">News<br>
+            <input type="checkbox" name="Entertainment">Entertainment<br>
+            <input type="checkbox" name="Science">Science<br>
+            <input type="checkbox" name="Medical">Medical<br>
+            <input type="checkbox" name="Religion">Religion<br>
+            <input type="checkbox" name="Sports">Sports<br>
+        </div>
+
+       <!-- selection-->
+
+       <br>
+        <div>
+            Current Status : <br>
+            <select>
+              <option value="Unemployed" Name="Unemployed"> Unemployed</option>
+              <option value="Student" Name="student"> Student</option>
+              <option value="Employed" Name="Employed"> Employed</option>
+                <option value="Social Worker" Name="socialWorker"> Social Worker</option>
+
+            </select> <br>
+       <br>
+        </div>
+       <input type="submit" value="Register">
+       <input type="reset" value="Clear All">
+
+        
+    </form>
+    <br>
+    ----><a href= "index.html" ><strong>Home</strong></a> 
+    <hr>
+    <h6>Disclaimer : <br> Website in development phase (beta) <br> Not intended for public use as of now </h6>
+
+</body>
+</html>
